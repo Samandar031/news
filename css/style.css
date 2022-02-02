@@ -1,0 +1,524 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 136.6rem;
+  margin: 0 auto;
+}
+
+.navigation-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.navigation-one a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  margin: 0.8rem;
+}
+
+.nav-two i:nth-child(7) {
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.navigation-two {
+  margin: 2rem 0;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.navigation-two a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1.2rem;
+  font-weight: 550;
+}
+
+.navigation-two > i {
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+
+/* home page */
+
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.home-one {
+  width: 75rem;
+  height: 50rem;
+
+  color: white;
+}
+
+.home-one img {
+  width: 70rem;
+  height: 47.5rem;
+  margin-top: 0.8rem;
+}
+
+.home-two-card {
+  display: flex;
+  justify-content: center;
+}
+
+.home-two-card img {
+  margin: 0.2rem;
+}
+
+.basic-box {
+  border: 0.2rem solid white;
+  color: white;
+  width: 35rem;
+  height: 25rem;
+  /* background-image: url(../image/pexels-cottonbro-10464468.jpg);
+   background-size: 35rem 25rem; */
+}
+
+/* background img */
+
+.back-img-1 {
+  background-image: url(../image/pexels-fauxels-3183197.jpg);
+  background-size: 35rem 25rem;
+}
+
+.back-img-2 {
+  background-image: url(../image/pexels-jaime-reimer-2662116.jpg);
+  background-size: 35rem 25rem;
+}
+.back-img-3 {
+  background-image: url(../image/pexels-luis-del-río-15286.jpg);
+  background-size: 35rem 25rem;
+}
+.back-img-4 {
+  background-image: url(../image/pexels-roberto-nickson-3082341.jpg);
+  background-size: 35rem 25rem;
+}
+
+/* breaking news */
+
+.breaking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+
+.breaking-one {
+  display: flex;
+  align-items: center;
+}
+
+.break-btn {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.break-ques {
+  margin: 1rem;
+}
+
+.breaking-two i {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+/* life style header */
+
+.life-style-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  margin: 1rem;
+}
+
+.life-left {
+  display: flex;
+  width: 88rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(221, 75, 75);
+}
+
+.life-btn {
+  background-color: rgb(221, 75, 75);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.life-category a {
+  display: inline-block;
+  margin: 1rem;
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.life-category .active {
+  color: black;
+}
+
+.life-right {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  width: 44rem;
+}
+
+/* basic life style */
+
+.basic-style {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 1rem auto;
+}
+
+.life-one .life-style-header .life-btn {
+  background-color: rgb(45, 177, 45);
+}
+
+.life-one .life-style-header .life-left {
+  border-bottom: 2px solid rgb(45, 177, 45);
+}
+
+.life-one-content {
+  display: flex;
+}
+
+.life-one-one {
+  margin: 1rem;
+}
+
+.basic-big-card {
+  width: 44rem;
+  height: 40rem;
+}
+
+.basic-big-card img {
+  width: 42rem;
+  height: 22rem;
+}
+
+.basic-big-card-title {
+  margin: 1rem 0;
+  font-size: 2.2rem;
+}
+
+.basic-big-card-description {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.basic-big-card-text {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  margin: 1rem 0;
+}
+
+.basic-mini-card-content {
+  margin: 0 1rem;
+}
+
+.basic-mini-card-title {
+  margin: 1rem 0;
+  font-size: 2.2rem;
+}
+
+.basic-mini-card-description {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin: 1rem 0;
+}
+
+.basic-mini-card {
+  width: 42rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-mini-card img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.basic-two {
+  width: 42rem;
+}
+
+.basic-two-category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 5rem;
+  margin: 1rem;
+}
+
+.basic-two-category a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.basic-two-category .active {
+  width: 8rem;
+  padding: 1rem;
+
+  border-bottom: 2px solid black;
+}
+
+/* social media */
+
+.social-media {
+  margin: 1rem;
+  width: 30rem;
+}
+
+.social-media-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40rem;
+}
+
+.social {
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  width: 15rem;
+
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.social i {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.basic-two .life-right {
+  padding: 1rem 2rem;
+  width: 42rem;
+}
+
+/* fashion one */
+
+.fashion-one-box {
+  display: flex;
+}
+
+.fashion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fashion-two {
+  margin: 1rem;
+  width: 41rem;
+}
+
+.fashion .life-btn {
+  background-color: yellow;
+}
+
+.fashion .life-left {
+  border-bottom: 2px solid yellow;
+}
+
+/* quizzes */
+
+.quizzes {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.fashion .two {
+  background-color: gray;
+}
+
+.fashion .one {
+  border-bottom: 2px solid gray;
+}
+
+.random {
+  margin: 1rem 0;
+  width: 42rem;
+}
+
+/* tags */
+
+.tags-card {
+  height: 30rem;
+}
+
+.tags-card div {
+  height: 50px;
+  margin-top: 2rem;
+}
+
+.tags {
+  padding: 1rem 2rem;
+  background-color: rgb(167, 161, 161);
+  color: white;
+  margin: 5px;
+}
+
+/* voting */
+
+.voting-green {
+  float: left;
+}
+
+.voting {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.voting-title {
+  margin: 1rem 0;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.voting-green {
+  padding: 1rem 2rem;
+  background-color: rgb(45, 177, 45);
+  color: white;
+  margin-right: 1rem;
+}
+
+.voting-float {
+  padding: 1rem 2rem;
+
+  margin-right: 1rem;
+}
+
+.basic-green .life-btn {
+  background-color: rgb(45, 177, 45);
+}
+
+.basic-green .life-left {
+  border-bottom: 2px solid rgb(45, 177, 45);
+}
+
+.basic-pink .life-btn {
+  background-color: rgb(153, 67, 82);
+}
+
+.basic-pink .life-left {
+  border-bottom: 2px solid rgb(153, 67, 82);
+}
+
+/* video */
+
+.video-img {
+  width: 880px;
+  margin: 1rem;
+}
+
+.video-card {
+  display: flex;
+  margin: 1rem;
+}
+
+.video-card .basic-big-card-title {
+  font-size: 1.5rem;
+}
+
+.basic-siyoh .life-btn {
+  background-color: blueviolet;
+}
+
+.basic-siyoh .life-left {
+  border-bottom: 2px solid blueviolet;
+}
+
+.basic-black .life-btn {
+  background-color: black;
+}
+
+.basic-black .life-left {
+  border-bottom: 2px solid black;
+}
+
+/* latest */
+
+.latest {
+  display: flex;
+  margin: 1rem;
+}
+
+.latest h1 {
+  margin: 1rem;
+}
+
+.latest p {
+  margin: 2rem 1rem;
+}
+
+.latest .basic-big-card-text {
+  line-height: 2rem;
+  opacity: 0.9;
+  font-weight: 520;
+}
+
+.finish-btn {
+  padding: 1rem 2rem;
+  width: 88rem;
+  border: 1px solid gray;
+  margin: 1rem;
+  background-color: white;
+}
+
+/* /// footer /// */
+
+.footer-section {
+  background-color: #1d1e20;
+  height: 55rem;
+  width: 136.6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.footer-box {
+  width: 30%;
+  #3CB286
+}
